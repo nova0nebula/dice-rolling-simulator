@@ -8,7 +8,7 @@ while True:
     roll: str = str(input("Roll the dice? (y/n): ")).lower()
     if roll == 'y':
         dice: int = random.randint(1, 6)
-      print(f"🎲 You rolled a {dice}!")
+        print(f"🎲 You rolled a {dice}!")
     else:
         print("Goodbye! 👋")
         break
