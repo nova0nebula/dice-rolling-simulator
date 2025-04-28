@@ -5,9 +5,9 @@ import random
 
 # Main Loop
 while True:
-    roll = input("Roll the dice? (y/n): ").lower()
+    roll: str = str(input("Roll the dice? (y/n): ")).lower()
     if roll == 'y':
-        dice = random.randint(1, 6)
+        dice: int = random.randint(1, 6)
       print(f"🎲 You rolled a {dice}!")
     else:
         print("Goodbye! 👋")
